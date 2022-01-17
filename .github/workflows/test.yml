@@ -1,6 +1,6 @@
 name: get_resent_repos
 
-on: push
+on: [push, trigger]
 
 jobs:
   my-job:
